@@ -1,0 +1,45 @@
+.error-msg{
+    background-color: #505050;
+    border: none;
+    border-radius: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.error-msg p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.success-msg{
+    background-color: #47a619;
+    border: none;
+    border-radius: 0px;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+article.styled .imagePreview img {
+    margin-top: 10px;
+    padding:15px;
+    border:2px dashed #ccc;
+    border-radius:10px;
+    width: 50%;
+}
+
+.slideDelete{
+    margin-left:-20px ;
+
+
+}
+
+.slideDelete i{
+    margin-top:-20px;
+    color: white;
+}
+
+
