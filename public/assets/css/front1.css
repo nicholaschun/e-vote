@@ -1,0 +1,258 @@
+body{
+    background: #ebeaed;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+
+.login-container{
+    background-color: #fdfcff;
+    width: 28%;
+    margin-top: 50px;
+    padding: 0px;
+    border-bottom: 8px #397361 solid;
+}
+
+.login-heading{
+    background-color: #50b7a5;
+    padding: 15px;
+    margin:0px;
+    text-align: center;
+
+}
+.login-heading h4{
+    color: white;
+    margin: 0px;
+    font-family: 'segoe ui';
+    font-size: 22px;
+}
+
+.login-info{
+    text-align: center;
+    color: #818181;
+    font-family: 'segoe ui';
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.login-form form{
+    padding: 15px;
+}
+.login-form form input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: #e5e5e5 1px solid;
+    margin-top: 10px;
+    font-family:'segoe ui';
+    font-size: 12px;
+}
+
+.login-form form input:focus{
+    outline: none;
+}
+
+
+.login-form form button{
+    padding: 8px;
+    width: 40%;
+    border: #e5e5e5 1px solid;
+    margin-top: 10px;
+    background-color: #50a896;
+    color: white;
+    font-family: 'segoe ui';
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.login-form form button:hover{
+    background-color:  #50b7a5;
+}
+
+.reset-password{
+    padding: 10px;
+
+}
+
+.reset-password a{
+    color: #8f1b21;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.register-link{
+    margin-left: 10px;
+}
+
+.link-register{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-top: 1px solid #b1b1b1;
+}
+
+.link-register p{
+    font-family: 'segoe ui';
+    margin: 10px;
+    padding: 5px;
+}
+
+.register-link a{
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #50a896;
+    color: white;
+    font-family: 'segoe ui';
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.image-container{
+    margin-top: 130px;
+    padding:20px ;
+}
+.image-container p{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'segoe ui';
+    font-weight: lighter;
+}
+
+.voter-login-form form{
+    padding: 15px;
+    margin: 30px;
+    width: 50%;
+
+}
+.voter-login-form form input{
+    padding: 20px;
+    width: 170%;
+    border: #b0b0b0 1px solid;
+    margin-top: 10px;
+    font-family:'segoe ui';
+    font-size: 17px;
+    font-weight: bold;
+}
+.voter-login-form form input:focus{
+    outline: none;
+}
+
+.voter-login-form form button{
+    padding: 15px;
+    width: 50%;
+    border: #397361 1px solid;
+    margin-top: 10px;
+    background-color: #50a896;
+    color: white;
+    font-family: 'segoe ui';
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.voter-login-container{
+    background-color: #fdfcff;
+    width: 50%;
+    margin-top: 50px;
+    padding: 0px;
+    border-bottom: 8px #397361 solid;
+    -webkit-box-shadow: -4px 2px 27px -9px rgba(128,118,128,1);
+    -moz-box-shadow: -4px 2px 27px -9px rgba(128,118,128,1);
+    box-shadow: -4px 2px 27px -9px rgba(128,118,128,1);
+}
+
+footer{
+
+}
+
+
+h4{
+    background: #51a593;
+    color: white;
+    font-family: "segoe ui";
+    padding: 10px;
+}
+
+h3{
+    font-family: "segoe ui";
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    background: #356a58;
+    color: white;
+}
+
+.vote-summary{
+    height: 300px;
+    background: #d6d6d6;
+    margin: 20px;
+}
+
+.image-box{
+    margin: 20px;
+    padding: 5px;
+    width: 19%;
+    height: 250px;
+}
+
+.image-box img{
+    height: 170px;
+    width: 100%;
+}
+
+.candidate-name {
+    background-color: white;
+    text-align: center;
+    color: #8f1b21;
+    font-family: "segoe ui";
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+}
+
+.skip-button{
+    margin-top: 20px;
+
+}
+
+.skip-button button{
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.skip-button p{
+    width: 100%;
+    margin:20px ;
+}
+
+.logged-in-user{
+    text-align: center;
+}
+
+.vote-button{
+    width: 100%;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 0px;
+    background: #51a593;
+}
+
+.vote-button:hover{
+    width: 100%;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 0px;
+    background: #356a58;
+}

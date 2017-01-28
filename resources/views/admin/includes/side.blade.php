@@ -6,17 +6,28 @@
             <li><a href="/admin/"><i class="fa fa-home"></i> Home</a>
 
             </li>
-            <li><a href="/admin/users/"><i class="fa fa-user"></i> Users </a>
+
+
+            <li><a href="/admin/portfolio/"><i class="fa fa-paper-plane-o"></i>  Portfolio </a>
+            </li>
+
+            <li><a href="/admin/candidate/"><i class="fa fa-pencil"></i> Candidates </a>
+            </li>
+
+            <li><a href="/admin/voter-register/"><i class="fa fa-upload"></i> Upload Voters</a>
+            </li>
+
+            <li><a href="#"><i class="fa fa-share"></i> Display Votes </a>
+            </li>
+
+            <li><a href="#"><i class="fa fa-print"></i> Display Results </a>
+            </li>
+
+            <li><a href="#"><i class="fa fa-power-off"></i> Logout </a>
             </li>
 
 
-            <li><a><i class="fa fa-pagelines"></i> Pages <span class="fa fa-chevron-down"></span></a>
-                <ul class="nav child_menu">
-                    <li><a href="/admin/home/">Home Page</a></li>
-                    <li><a href="/admin/about/">About us Page</a></li>
-                    <li><a href="/admin/portfolio/">Portfolio Page</a></li>
-                </ul>
-            </li>
+
 
 
 

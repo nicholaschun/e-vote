@@ -29,6 +29,9 @@
         <!-- top navigation -->
         <div class="top_nav">
             @include('admin.includes.top_header')
+            <div class="message-container">
+                @include('admin.includes.messages')
+            </div>
         </div>
         <!-- /top navigation -->
 
@@ -36,15 +39,15 @@
         <div class="right_col" role="main">
             <div class="">
                 <div class="row top_tiles">
-                    <!-- <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                        <div class="tile-stats">
                          <div class="icon"><i class="fa fa-users"></i></div>
                          <div class="count">179</div>
-                         <h3>Users</h3>
-                         <p>users available to edit web page.</p>
+                         <h3>Accounts</h3>
+                         <p>Available accounts on platform</p>
                        </div>
                      </div>
-                     -->
+
 
                 </div>
 

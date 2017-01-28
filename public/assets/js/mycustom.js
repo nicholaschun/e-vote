@@ -47,8 +47,8 @@ $(document).ready(function() {
         $(this).parent("div").remove();
     });
 
-    $('div.error-msg').delay(3000).slideUp(300);
-    $('div.success-msg').delay(3000).slideUp(300);
+    $('div.error-msg').delay(3000).fadeOut(300);
+    $('div.success-msg').delay(3000).fadeOut(300);
 
 
 
@@ -57,3 +57,11 @@ $(document).ready(function() {
 $(document).ready(function(){
     $('#myTable').DataTable();
 });
+
+//To handle excel file display
+
+document.getElementById("uploadBtn").onchange = function () {
+    document.getElementById("uploadFile").style = 'display:inline';
+    document.getElementById("uploadFile").value = this.value;
+};
+

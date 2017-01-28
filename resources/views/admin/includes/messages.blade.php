@@ -9,6 +9,6 @@
 @endif
 @if(Session::has('message'))
     <div class="alert-success success-msg">
-        <i class="fa fa-check"> {{Session::get('message')}}</i>
+        <p><i class="fa fa-check"> {{Session::get('message')}}</i></p>
     </div>
 @endif

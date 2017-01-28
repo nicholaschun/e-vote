@@ -1,26 +1,42 @@
+/* to handle frontend */
+
+
+body{
+    font-family: 'segoe ui' !important;
+}
+
+
 .error-msg{
-    background-color: #505050;
+    background-color: #b21f25;
     border: none;
     border-radius: 0px;
+    width: 1280px;
     position: absolute;
-    width: 100%;
+    padding: 15px;
+    color: white;
 }
 
 .error-msg p{
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
+    margin-left: -100px;
+    font-family: 'segoe ui';
 }
 
 
 .success-msg{
     background-color: #47a619;
-    border: none;
     border-radius: 0px;
-    font-size: 16px;
-    text-align: center;
-    padding: 20px;
+    width: 1280px;
     position: absolute;
-    width: 100%;
+    padding: 15px;
+    color: white;
+}
+
+.success-msg p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: -100px;
 }
 
 article.styled .imagePreview img {
@@ -43,3 +59,44 @@ article.styled .imagePreview img {
 }
 
 
+.portfolio-form{
+
+}
+
+.portfolio-form input{
+    width: 600px;
+}
+
+
+.required{
+    color: #8f1b21;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    padding: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+article.styled .imagePreview img {
+    margin-top: 10px;
+    padding:15px;
+    border:2px dashed #ccc;
+    border-radius:10px;
+    width: 50%;
+}
+
+#uploadFile{
+    display: none;
+}
